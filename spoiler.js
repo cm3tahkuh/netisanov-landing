@@ -1,6 +1,6 @@
 $(document).ready(function() {
-
-    var showChar = 250;
+    // 250 characters are shown by default
+    var showChar = 158;
     var dots = ".... ";
     var moreText = "Показать";
     var lessText = "Скрыть";
