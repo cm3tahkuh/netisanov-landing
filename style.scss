@@ -27,6 +27,7 @@ $gray-footer:rgba(200, 200, 200, 1);
 
 body {
     background-color: $background;
+    min-width: 320px;
 }
 
 body::-webkit-scrollbar {
@@ -71,7 +72,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
     bottom: 0;
     z-index: 10;
     display: none;
@@ -88,7 +89,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
     bottom: 0;
     right: 0;
     z-index: 10;
@@ -263,7 +264,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 60px;
-    max-width: 400px;
+    max-width: 325px;
     color: $text;
 }
 
@@ -661,6 +662,7 @@ body::-webkit-scrollbar-thumb {
 .callback__row {
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -885,6 +887,7 @@ body::-webkit-scrollbar-thumb {
 
     #menu__burger {
         display: block;
+        
     }
 
     #menu__button__callback{
@@ -1467,5 +1470,11 @@ text-align: center;
     }
     .callback__form{
         padding: 20px;
+    }
+    .callback__row{
+        align-items: flex-start;
+    }
+    .diseases__image{
+        max-width: 70%;
     }
 }
